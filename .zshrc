@@ -98,6 +98,7 @@ alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias getip="curl -i http://ip.cn"
 alias ls='ls --color=auto'
+alias subl='~/soft/sublime_text_3/sublime_text'
 
 # Ibus
 export GTK_IM_MODULE=ibus
@@ -112,3 +113,11 @@ alias unsetproxy="unset ALL_PROXY"
 export WORKON_HOME=$HOME/work/python/virtual_env
 export PROJECT_HOME=$HOME/work/python/projects
 source /usr/bin/virtualenvwrapper.sh
+
+# pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
+eval "$(pyenv virtualenv-init -)"
