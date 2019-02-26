@@ -1,0 +1,16 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.fontFamily": "'WenQuanYi Micro Hei', 'Monaco', 'Droid Sans Mono', monospace, 'Droid Sans Fallback'",
+    "editor.renderWhitespace": "all",
+    "editor.autoClosingQuotes": "always",
+    "editor.autoClosingBrackets": "always",
+    "editor.mouseWheelZoom": true,
+    "editor.smoothScrolling": true,
+    "editor.tabCompletion": "on",
+    "editor.cursorBlinking": "smooth",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "terminal.external.linuxExec": "zsh",
+    "terminal.integrated.fontFamily": " hack",
+    "editor.fontSize": 16
+}
