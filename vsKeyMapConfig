@@ -1,0 +1,15 @@
+// Place your key bindings in this file to override the defaults
+
+[
+
+  // for path intellisense plugin bug
+
+  {
+
+​    "key": ".",
+
+​    "command": ""
+
+  }
+
+]
