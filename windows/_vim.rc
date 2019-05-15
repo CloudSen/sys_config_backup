@@ -1,0 +1,29 @@
+"---------------------------------------------
+" Name: VIMRC FOR WINODWS
+" Author: https://keelii.com/2016/06/13/awsome-window-vimrc/
+" Email: www.402645063@gmail.com
+"---------------------------------------------
+
+" Startup 编辑器启动时的一些配置 {{{
+filetype indent plugin on
+" vim 文件折叠方式为marker
+augroup ft_vim
+	au!
+	au FileType vim setlocal foldmethod=marker
+augroup END
+" }}}
+
+" General 通用设置 {{{
+set nocompatible
+set nobackup
+set noswapfile
+set history=1024
+set autochdir
+set whichwrap=b,s,<,>,[,]
+set nobomb
+set backspace=indent,eol,start whichwrap+=<,>,[,]
+" vim 的默认寄存器和系统剪切板共享
+set clipboard+=unnamed
+" 设置 alt 键不映射到菜单栏
+set winaltkeys=no
+" }}}
